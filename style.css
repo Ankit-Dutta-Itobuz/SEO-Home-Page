@@ -1,0 +1,10 @@
+.expert {
+    top: 110px;
+    left: 300px;
+    border-style: solid;  
+    border-width: 2px; 
+    padding-left:10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    transform: rotate(-10deg);
+}
