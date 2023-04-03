@@ -8,55 +8,781 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-   <!-- navbar section statrs here -->
-    <section class="topNav container-fluid">
-        <nav
-      class="navbar navbar-expand-lg navbar-light justify-content-around align-items-center d-flex p-4 ">
-      <div>
-        <a href="#" class="nav-link">
-          <h1>nuvosa</h1>
-        </a>
-      </div>
-      <div class="navbar-nav justify-content-around  w-50 d-flex mb-0">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link" href="#">Contact</a>
-      </div>
-      <div class="d-flex">
-        <a href="#" class="btn border border-secondary px-4 text-center pt-2">
-          Let's Talk
-        </a>
-        <button class="btn bg-warning ms-3">
-            <img class="p-1" src="./images/NavBar/Search.png" alt="">
-        </button>
-      </div>
-    </nav>
+  <body class="container-fluid">
+    <!-- navbarSection statrs here -->
+    <section class="container-fluid">
+      <navbar class="navbar navbar-expand-lg">
+        <div class="container-fluid mt-2 px-md-5 mt-sm-3 mb-3">
+          <a class="navbar-brand me-5 fs-1" href="#"
+            >novosa
+            <img src="./images/NavBar/nav_red_dot.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="ms-lg-5 collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-column flex-sm-row gap-3"
+            >
+              <li class="nav-item navbar-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item navbar-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item navbar-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item navbar-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item navbar-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex flex-row ps-5 gap-3">
+              <input
+                class="form-control w-50 me-2 border-3"
+                type="search"
+                placeholder="Let's Talk"
+                aria-label="Search"
+              />
+              <button
+                class="btn bg-warning text-white btn-outline-warning py-2 px-4"
+                type="submit"
+              >
+                <img
+                  src="./images/NavBar/Search.png"
+                  alt="search logo not found"
+                />
+              </button>
+            </form>
+          </div>
+        </div>
+      </navbar>
     </section>
+    <!-- navBarSection ends here -->
 
-    <!-- girl section starts here -->
-    <section class="girlSection container-fluid d-flex">
-        <div class="w-50 d-flex pt-5 ps-5">
-            <p class="fs-1 pt-5 ps-5 position-relative">Increase your web <br> traffic with our <span class="fs-2 position-absolute expert text-primary">expert</span></p>
-            
-            <!-- <p class="fs-6 pt-5 ps-5">It is a long established fact that a reader will be distracted by the readable content of a page when It is a long. It is a long established fact that a reader will be distracted by the readable content of a is simply. It is a long established fact that a reader will be distracted.</p> -->
+    <!-- heroSection starts here -->
+    <section class="container-fluid heroSection py-5">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-xl-4 col-md-6">
+          <div class="row gap-5">
+            <div>
+              <span class="nuvosaLargeText"
+                >Increase your web traffic with our
+                <span class="nuvosaViolet expert nuvosaLargeText">expert</span>
+              </span>
+            </div>
+            <p class="nuvosaSmallText">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when It is a long . It is a long
+              established fact that a reader will be distracted by the readable
+              content of a is simply. It is a long established fact that a
+              reader will be distracted.
+            </p>
+            <div>
+              <button class="btn px-4 py-3 bg-warning me-5 nuvosaMediumText">
+                Get Started
+              </button>
+              <img
+                class="ms-5 py-5"
+                src="./images/Top_Section/YouTube-Original.png"
+                alt="youtube logo not found"
+              />
+            </div>
+          </div>
         </div>
-        <div class="w-50 ">
-            <img src="./images/Top_Section/Group-672.png" alt="">
+        <div class="col-xl-6 col-md-6">
+          <div class="row">
+            <div
+              class="col-xl-3 border h-100 opacity-75 bg-light py-3 align-self-end my-5"
+            >
+              <p class="nuvosaSmallText">Our Creative Team</p>
+              <div class="row">
+                <img
+                  class="col-3"
+                  src="./images/Top_Section/Ellipse-15.png"
+                  alt="headshot not found"
+                />
+                <img
+                  class="col-3"
+                  src="./images/Top_Section/Ellipse-16.png"
+                  alt="headshot not found"
+                />
+                <img
+                  class="col-3"
+                  src="./images/Top_Section/Ellipse-17.png"
+                  alt="headshot not found"
+                />
+                <img
+                  class="col-3"
+                  src="./images/Top_Section/Ellipse-18.png"
+                  alt="headshot not found"
+                />
+              </div>
+            </div>
+            <img
+              class="col-xl-9"
+              src="./images/Top_Section/Group-672.png"
+              alt="girl img not found"
+            />
+          </div>
         </div>
+      </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    <!-- heroSection ends here -->
+
+    <!-- managementSection starts here  -->
+    <section class="container-fluid managementSection my-5">
+      <div class="row justify-content-around">
+        <div class="col-lg-3 my-5 cardBorder cardScaleEffect">
+          <div class="row justify-content-around align-content-center">
+            <div class="col-3 me-5">
+              <img src="./images/management/smm.png" alt="smm logo not found" />
+            </div>
+            <p class="col-7 nuvosaMediumText">Socila Media Management</p>
+          </div>
+          <div class="row justify-content-center my-4">
+            <p class="col-11 nuvosaSmallText">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that.
+            </p>
+          </div>
+          <div class="row justify-content-end">
+            <button class="btn col-sm-1">→</button>
+          </div>
+        </div>
+        <div class="col-lg-3 my-5 cardBorder cardScaleEffect">
+          <div class="row justify-content-around align-content-center">
+            <div class="col-3 me-5">
+              <img
+                src="./images/management/Email_Marketing.png"
+                alt="email logo not found"
+              />
+            </div>
+            <p class="col-7 nuvosaMediumText">
+              Email <br />
+              Marketing
+            </p>
+          </div>
+          <div class="row justify-content-center my-4">
+            <p class="col-11 nuvosaSmallText">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that.
+            </p>
+          </div>
+          <div class="row justify-content-end">
+            <button class="btn col-sm-1">→</button>
+          </div>
+        </div>
+        <div class="col-lg-3 my-5 cardBorder cardScaleEffect">
+          <div class="row justify-content-around align-content-center">
+            <div class="col-3 me-5">
+              <img
+                src="./images/management/SEO_management.png"
+                alt="seo logo not found"
+              />
+            </div>
+            <p class="col-7 nuvosaMediumText">SEO Management</p>
+          </div>
+          <div class="row justify-content-center my-4">
+            <p class="col-11 nuvosaSmallText">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that a reader.
+            </p>
+          </div>
+          <div class="row justify-content-end">
+            <button class="btn col-sm-1">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- managementSection ends here  -->
+
+    <!-- optimiseSection starts here -->
+    <section class="container-fluid optimiseSection my-5">
+      <div class="row">
+        <p class="col-lg-5 col-sm-10 nuvosaLargeText offset-lg-1">
+          Optimising your <span class="nuvosaViolet">Website</span>
+        </p>
+      </div>
+      <div class="row my-5">
+        <p class="col-lg-5 col-sm-10 nuvosaSmallText offset-lg-1">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when It is a long.
+        </p>
+      </div>
+      <div class="row justify-content-around">
+        <div
+          class="col-xl-2 col-md-6 optimiseKeyCard optimiseCard cardBorder my-5"
+        >
+          <div>
+            <img src="./images/optimise/content.png" alt="" />
+          </div>
+          <p class="nuvosaMediumText my-5">Keyword Research</p>
+          <p class="nuvosaSmallText">
+            It is a long established fact that a reader will be distracted by
+            the It is a long established.
+          </p>
+        </div>
+        <div
+          class="col-xl-2 col-md-6 optimiseContentCard optimiseCard cardBorder my-5"
+        >
+          <div>
+            <img src="./images/optimise/keyword.png" alt="" />
+          </div>
+          <p class="nuvosaMediumText my-5">Kryword Research</p>
+          <p class="nuvosaSmallText">
+            It is a long established fact that a reader will be distracted by
+            the It is a long established.
+          </p>
+        </div>
+        <div
+          class="col-xl-2 col-md-6 optimiseTargetCard optimiseCard cardBorder my-5"
+        >
+          <div>
+            <img src="./images/optimise/target.png" alt="" />
+          </div>
+          <p class="nuvosaMediumText my-5">Kryword Research</p>
+          <p class="nuvosaSmallText">
+            It is a long established fact that a reader will be distracted by
+            the It is a long established.
+          </p>
+        </div>
+        <div
+          class="col-xl-2 col-md-6 optimiseTestingCard optimiseCard cardBorder my-5"
+        >
+          <div>
+            <img src="./images/optimise/continuous.png" alt="" />
+          </div>
+          <p class="nuvosaMediumText my-5">Kryword Research</p>
+          <p class="nuvosaSmallText">
+            It is a long established fact that a reader will be distracted by
+            the It is a long established.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- optimiseSection ends here -->
+
+    <!-- solutionSec starts here -->
+    <section class="container-fluid my-5 py-5 solutionSec">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 my-5">
+          <div class="row gap-5">
+            <div>
+              <span class="nuvosaLargeText"
+                >Perfect Solution For <br />
+                Your
+                <span class="nuvosaViolet nuvosaLargeText">Business</span>
+              </span>
+            </div>
+            <p class="nuvosaSmallText">
+              It is a long established fact that a reader will be distracted by
+              the It is a long established .t is a long established fact that a
+              reader will be distracted by the readable content of.
+            </p>
+            <div>
+              <button class="btn px-5 py-3 bg-warning me-5 nuvosaMediumText">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="row">
+            <img
+              src="./images/Business/New-Macbook-Pro-Mockup-Front-View.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- solutionSec ends here -->
+
+    <!-- growSec starts here -->
+    <section class="container-fluid growSec my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="row justify-content-around">
+            <div class="col-xl-3 col-md-4 cardBorder my-5 py-4">
+              <div>
+                <img src="./images/leads/Lightning-alt.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText my-5">Grow Your Business</p>
+              <p class="nuvosaSmallText">
+                It is a long established fact that a reader will be distracted
+                by. <br />
+              </p>
+              <span class="nuvosaViolet">Read more...</span>
+            </div>
+            <div class="col-xl-3 col-md-4 cardBorder my-5 py-4">
+              <div>
+                <img src="./images/leads/Lightning.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText my-5">Get Quality leads</p>
+              <p class="nuvosaSmallText">
+                It is a long established fact that a reader will be distracted
+                by.
+              </p>
+              <span class="nuvosaViolet">Read more...</span>
+            </div>
+            <div class="col-xl-3 col-md-4 cardBorder my-5 py-4">
+              <div>
+                <img src="./images/leads/bookmark.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText my-5">Drive more sales</p>
+              <p class="nuvosaSmallText">
+                It is a long established fact that a reader will be distracted
+                by.
+              </p>
+              <span class="nuvosaViolet">Read more...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- growSec ends here -->
+
+    <!-- choiceSec starts here -->
+    <section class="choiceSec container-fluid my-5 py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p class="nuvosaLargeText text-center">
+            why you should <span class="nuvosaViolet">choose us.</span>
+          </p>
+          <p class="nuvosaSmallText offset-2 col-8 text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content. It is a long established fact that a reader
+            .It is a long established fact that a reader will be.
+          </p>
+          <div class="row justify-content-around">
+            <div class="col-lg-3 col-md-4 my-5 cardBorder cardScaleEffect">
+              <div class="row">
+                <img src="./images/Choose/image-30.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center my-5">See optimazadion</p>
+              <p class="nuvosaSmallText text-center">
+                It is a long established fact that a reader will be distracted
+                by.It is a long established.
+              </p>
+              <div class="row justify-content-center pb-5">
+                <button class="col-6 btn bg-warning">Learn More</button>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 my-5 cardBorder cardScaleEffect">
+              <div class="row">
+                <img src="./images/Choose/image-31.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center my-5">Keyword Research</p>
+              <p class="nuvosaSmallText text-center">
+                It is a long established fact that a reader will be distracted
+                by.It is a long established.
+              </p>
+              <div class="row justify-content-center pb-5">
+                <button class="col-6 btn bg-warning">Learn More</button>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 my-5 cardBorder cardScaleEffect">
+              <div class="row">
+                <img src="./images/Choose/image-31.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center my-5">Social marketing</p>
+              <p class="nuvosaSmallText text-center">
+                It is a long established fact that a reader will be distracted
+                by.It is a long established.
+              </p>
+              <div class="row justify-content-center pb-5">
+                <button class="col-6 btn bg-warning">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choiceSec ends here -->
+
+    <!-- marketingSec starts  here-->
+    <sec class="marketingSec container-fluid my-5 py-5">
+      <div class="row justify-content-around">
+        <img
+          class="col-lg-4 my-5 py-5"
+          src="./images/SEO/image-34.png"
+          alt=""
+        />
+        <div class="col-lg-4">
+          <p class="col-12 nuvosaLargeText">
+            You Make Ask What SEO & Why Do You
+            <span class="nuvosaViolet">Need It?</span>
+          </p>
+          <p class="col-12 nuvosaSmallText">
+            It is a long established fact that a reader will be distracted by
+            the readable content. It is a long established fact that a reader
+            .It is a long.
+          </p>
+          <div class="col-12 d-flex justify-content-around my-1 mt-2">
+            <img src="./images/SEO/socialMedia.png" alt="" class="col-2 py-2" />
+            <div class="col-9">
+              <p class="nuvosaMediumText">Social Media Marketing</p>
+              <p class="col-9 nuvosaSmallText">
+                It is a long established fact that a reader will be distracted
+                by the.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-around my-1">
+            <img src="./images/SEO/email.png" alt="" class="col-2 py-2" />
+            <div class="col-9">
+              <p class="nuvosaMediumText">Email Marketing</p>
+              <p class="col-9 nuvosaSmallText">
+                It is a long established fact that a reader will be distracted
+                by the.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-around my-1">
+            <img src="./images/SEO/SEO.png" alt="" class="col-2 py-2" />
+            <div class="col-9">
+              <p class="nuvosaMediumText">SEO Optimization</p>
+              <p class="col-9 nuvosaSmallText">
+                It is a long established fact that a reader will be distracted
+                by the.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sec>
+    <!-- marketingSec ends  here-->
+
+    <!-- statsSec starts here -->
+    <sec class="statsSec container-fluid my-5 py-5">
+      <div class="row justify-content-center my-5 py-5">
+        <div class="col-lg-7 d-flex flex-column flex-md-row border align-items-center justify-content-evenly">
+          <div class="col-md-2 py-4">
+            <p class="nuvosaLargeText mb-0 text-center">86</p>
+            <p class="nuvosaSmallText mt-0 text-center">Happy Clients</p>
+          </div>
+          <img src="./images/svg/dot-small-svgrepo-com.svg" alt="" class="col-1">
+          <div class="col-md-2 py-4">
+            <p class="nuvosaLargeText mb-0 text-center">118</p>
+            <p class="nuvosaSmallText mt-0 text-center">Project Done</p>
+          </div>
+          <img src="./images/svg/dot-small-svgrepo-com (1).svg" alt="" class="col-1">
+          <div class="col-md-2 py-4">
+            <p class="nuvosaLargeText mb-0 text-center">6+</p>
+            <p class="nuvosaSmallText mt-0 text-center">Years Of Experience</p>
+          </div>
+          <img src="./images/svg/dot-small-svgrepo-com (2).svg" alt="" class="col-1">
+          <div class="col-md-2 py-4">
+            <p class="nuvosaLargeText mb-0 text-center">14</p>
+            <p class="nuvosaSmallText mt-0 text-center">National Awards</p>
+          </div>
+        </div>
+      </div>
+    </sec>
+    <!-- statsSec starts here -->
+
+    <!-- planSec starts here -->
+    <section class="planSec container-fluid my-5 py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p class="nuvosaLargeText text-center">Our Plans</p>
+          <p class="nuvosaMediumText offset-2 col-8 text-center">
+            Choose the right SEO for you
+          </p>
+          <div class="row justify-content-around my-5">
+            <div class="col-lg-3 col-md-4 my-5 cardBorder planScaleEffect py-5">
+              <p class="nuvosaMediumText text-center nuvosaViolet">Plus</p>
+              <p class="nuvosaMediumText text-center my-5">$46/Month</p>
+              <p class="nuvosaSmallText text-center">
+                It is a long established fact that a reader will be distracted
+                by.It is a long established.
+              </p>
+              <div class="row justify-content-center pb-5">
+                <button class="col-6 btn border">Get Started</button>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 my-5 cardBorder planScaleEffect py-5">
+              <p class="nuvosaMediumText text-center nuvosaViolet">Medium</p>
+              <p class="nuvosaMediumText text-center my-5">$66/Month</p>
+              <p class="nuvosaSmallText text-center">
+                It is a long established fact that a reader will be distracted
+                by.It is a long established.
+              </p>
+              <div class="row justify-content-center pb-5">
+                <button class="col-6 btn border">Get Started</button>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 my-5 cardBorder planScaleEffect py-5">
+              <p class="nuvosaMediumText text-center nuvosaViolet">Advanced</p>
+              <p class="nuvosaMediumText text-center my-5">$86/Month</p>
+              <p class="nuvosaSmallText text-center">
+                It is a long established fact that a reader will be distracted
+                by.It is a long established.
+              </p>
+              <div class="row justify-content-center pb-5">
+                <button class="col-6 btn border">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- planSec ends here -->
+
+    <!-- teamSection starts here -->
+    <section class="teamSection container-fluid my-5 py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p class="nuvosaLargeText text-center">
+            our expert team <span class="nuvosaViolet">members</span>
+          </p>
+          <p class="nuvosaSmallText offset-2 col-8 text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content. It is a long established fact that a reader
+          </p>
+          <div class="row justify-content-around">
+            <div class="col-lg-2 col-md-3 my-5 cardBorder cardScaleEffect">
+              <div class="col-sm-6 offset-sm-3 row">
+                <img src="./images/Team/member1.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center mt-5">Muriel Whee</p>
+              <p class="nuvosaSmallText text-center">Marketing Manager</p>
+              <div class="col-12 d-flex justify-content-around pb-5">
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/insta.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/pinterest.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/youtube.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/twitter.svg"
+                    alt="logo not found"
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 my-5 cardBorder cardScaleEffect">
+              <div class="col-sm-6 offset-sm-3 row">
+                <img src="./images/Team/member2.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center mt-5">Muriel Whee</p>
+              <p class="nuvosaSmallText text-center">Marketing Manager</p>
+              <div class="col-12 d-flex justify-content-around pb-5">
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/insta.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/pinterest.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/youtube.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/twitter.svg"
+                    alt="logo not found"
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 my-5 cardBorder cardScaleEffect">
+              <div class="col-sm-6 offset-sm-3 row">
+                <img src="./images/Team/member3.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center mt-5">Muriel Whee</p>
+              <p class="nuvosaSmallText text-center">Marketing Manager</p>
+              <div class="col-12 d-flex justify-content-around pb-5">
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/insta.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/pinterest.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/youtube.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/twitter.svg"
+                    alt="logo not found"
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 my-5 cardBorder cardScaleEffect">
+              <div class="col-sm-6 offset-sm-3 row">
+                <img src="./images/Team/member4.png" alt="" />
+              </div>
+              <p class="nuvosaMediumText text-center mt-5">Muriel Whee</p>
+              <p class="nuvosaSmallText text-center">Marketing Manager</p>
+              <div class="col-12 d-flex justify-content-around pb-5">
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/insta.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/pinterest.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/youtube.svg"
+                    alt="logo not found"
+                /></a>
+                <a class="col-2" href="#"
+                  ><img
+                    class="col-12"
+                    src="./images/Team/twitter.svg"
+                    alt="logo not found"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- teamSection ends here -->
+
+    <!-- subscribeSec starts here-->
+    <section class="subscribeSec container-fluid my-5 py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8 bgGrey py-5">
+          <p class="col-12 text-center nuvosaLargeText">
+            Subscribe & find the perfect Cosmetics
+          </p>
+          <p class="col-12 nuvosaSmallText text-center">
+            Enter your email and get updated new products & news
+          </p>
+          <div class="row justify-content-evenly">
+            <div class="col-lg-4">
+              <input
+                type="text"
+                class="form-control py-3 my-5"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-lg-4">
+              <input
+                type="email"
+                class="form-control py-3 my-5"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="col-lg-2">
+              <button class="btn py-3 my-5 sbuscribeBtn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribeSec ends here-->
+
+    <!-- footerSec starts here-->
+    <sec class="footerSec container-fluid my-5 py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row justify-content-center">
+            <a class="navbar-brand col-6 col-sm-2 fs-1" href="#"
+              >novosa
+              <img src="./images/NavBar/nav_red_dot.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 mt-3">
+          <div class="row justify-content-around">
+            <a href="#" class="col-lg-1 my-2 nav-link">Overview</a>
+            <a href="#" class="col-lg-1 my-2 nav-link">Pricing</a>
+            <a href="#" class="col-lg-1 my-2 nav-link">Careers</a>
+            <a href="#" class="col-lg-1 my-2 nav-link">Help</a>
+            <a href="#" class="col-lg-1 my-2 nav-link">Privacy</a>
+          </div>
+        </div>
+        <div class="col-md-10 border-bottom mt-5"></div>
+        <div class="col-md-10 mt-2">
+          <div class="row justify-content-between">
+            <div class="col-lg-4 nuvosaSmallText my-2">
+              Copyright © 2023 nuvosa, All rights reserved.
+            </div>
+            <div class="col-xl-4">
+              <div class="row justify-content-evenly nuvosaSmallText">
+                <a href="#" class="col-sm-3 my-2 nav-link">Terms of use</a>
+                <a href="#" class="col-sm-4 my-2 nav-link"
+                  >copyright & trademark</a
+                >
+                <a href="#" class="col-sm-1 my-2 nav-link">Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sec>
+    <!-- footerSec ends here-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
   </body>

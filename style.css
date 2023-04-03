@@ -1,10 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap");
+body {
+  font-family: "Inter";
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.nuvosaLargeText {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.nuvosaSmallText {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.nuvosaMediumText {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.nuvosaViolet {
+  color: #6f77f1;
+}
+
+.cardBorder {
+  box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
+  border-radius: 5px;
+}
+
+.cardScaleEffect:hover {
+  transition: all 0.1s ease-in-out;
+  scale: 1.1;
+  cursor: pointer;
+}
+
 .expert {
-    top: 110px;
-    left: 300px;
-    border-style: solid;  
-    border-width: 2px; 
-    padding-left:10px;
-    padding-right: 10px;
-    margin-left: 10px;
-    transform: rotate(-10deg);
+  border-style: solid;
+  border-width: 2px;
+}
+
+.heroSection {
+  background-image: url("./images/Top_Section/Group-673.png");
+}
+
+.optimiseKeyCard {
+  background-image: url(./images/optimise/1.png);
+}
+
+.optimiseContentCard {
+  background-image: url(./images/optimise/2.png);
+}
+
+.optimiseTargetCard {
+  background-image: url(./images/optimise/3.png);
+}
+
+.optimiseTestingCard {
+  background-image: url(./images/optimise/4.png);
+}
+
+.optimiseCard {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 75% 25%;
+}
+
+.solutionSec {
+  background: #fafafa;
+}
+
+.choiceSec {
+  background: #fafafa;
+}
+
+.planSec {
+  background: #fafafa;
+}
+
+.bgGrey {
+  background: #fafafa;
+}
+
+.planScaleEffect:hover {
+  transition: all 0.1s ease-in-out;
+  scale: 1.1;
+  cursor: pointer;
+  background-color: #6f77f1;
+  color: white;
+}
+
+.planScaleEffect:hover :first-child {
+  color: white;
+}
+
+.planScaleEffect:hover div button {
+  background: #fad725;
+}
+
+.planScaleEffect:hover :last-child {
+  color: black;
+}
+
+.sbuscribeBtn {
+  background: #6f77f1;
+  color: #fafafa;
 }
